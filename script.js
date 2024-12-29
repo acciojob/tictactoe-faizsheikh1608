@@ -51,8 +51,8 @@ const initialView = document.getElementById('initial-view');
     }
 
     document.getElementById('submit').addEventListener('click', () => {
-      player1 = document.getElementById('player-1').value || 'Player 1';
-      player2 = document.getElementById('player-2').value || 'Player 2';
+      player1 = document.getElementById('player1').value || 'Player 1';
+      player2 = document.getElementById('player2').value || 'Player 2';
 
       if (!player1 || !player2) {
         alert('Please enter names for both players!');
